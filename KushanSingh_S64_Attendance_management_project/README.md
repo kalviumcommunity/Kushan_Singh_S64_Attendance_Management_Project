@@ -37,8 +37,41 @@ From the project root directory:
 ```bash
   java -cp src com.school.Main
 ```
----
+
 ## ✅ Expected Output
 ```pgsql
   Welcome to the Attendance System!
 ```
+---
+
+## Part 2: Student and Course Management
+
+### Files Added
+- `src/com/school/Student.java`
+- `src/com/school/Course.java`
+
+### Features
+- Defined `Student` and `Course` classes.
+- Created arrays of `Student` and `Course` objects.
+- Displayed their details using methods.
+
+### Compile and Run
+```bash
+  javac src/com/school/*.java
+  java -cp src com.school.Main
+```
+
+## ✅ Expected Output
+```yaml
+Welcome to the Attendance System!
+
+--- Student Details ---
+Student ID: 1, Name: Alice
+Student ID: 2, Name: Bob
+Student ID: 3, Name: Charlie
+
+--- Course Details ---
+Course ID: 101, Name: Mathematics
+Course ID: 102, Name: Science
+```
+---
